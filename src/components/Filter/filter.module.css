@@ -1,0 +1,16 @@
+.filter {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 20px 0;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+@media screen and (max-width:768px){
+  
+  .filter{
+    width: 30rem;
+    margin-left: 9rem;
+  }
+}
+
